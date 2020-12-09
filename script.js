@@ -56,7 +56,7 @@ function iniciarJogo(){
             clearInterval(jogo);
             alert("Game Over :(");
             let restart = prompt("Quer recomeçar o jogo? S/N");
-            if(restart === 'S'){
+            if(restart === 'S' || restart === 's'){
                 document.location.reload(true);
             }
         }
